@@ -57,6 +57,10 @@
       <Project>{f503fad2-d420-477a-8f05-ffec2489479a}</Project>
       <Name>WebCtor.Test</Name>
     </ProjectReference>
+    <ProjectReference Include="..\WebCtor.Web.Site.ShroudedMountain\WebCtor.Web.Site.ShroudedMountain.csproj">
+      <Project>{93f1fe30-9fe1-4b1d-840c-defa9c90a7c6}</Project>
+      <Name>WebCtor.Web.Site.ShroudedMountain</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
