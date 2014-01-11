@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7F8C96CC-8049-409D-B446-F400D39452FF}</ProjectGuid>
+    <ProjectGuid>{272BCDDC-A35E-4515-B30A-1017AC41972B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WebCtor.Service.Endpoint.WebApi.Test.Integration</RootNamespace>
-    <AssemblyName>WebCtor.Service.Endpoint.WebApi.Test.Integration</AssemblyName>
+    <RootNamespace>WebCtor.Web.Site.GuildCloud.Test.Unit</RootNamespace>
+    <AssemblyName>WebCtor.Web.Site.GuildCloud.Test.Unit</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -38,6 +38,9 @@
       <HintPath>..\packages\NUnitTestAdapter.1.0\lib\nunit.core.interfaces.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>..\packages\NUnit.2.6.3\lib\nunit.framework.dll</HintPath>
+    </Reference>
     <Reference Include="nunit.util">
       <HintPath>..\packages\NUnitTestAdapter.1.0\lib\nunit.util.dll</HintPath>
       <Private>False</Private>
@@ -62,18 +65,17 @@
       <Project>{dea50c89-962f-41fd-b6d7-804e295b262e}</Project>
       <Name>WebCtor.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\WebCtor.Service.Endpoint.WebApi\WebCtor.Service.Endpoint.WebApi.csproj">
-      <Project>{63c5d4c1-8045-4bca-933d-76dedcb756fd}</Project>
-      <Name>WebCtor.Service.Endpoint.WebApi</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\WebCtor.Service\WebCtor.Service.csproj">
-      <Project>{92533675-39f7-4930-8e0c-7277812411e6}</Project>
-      <Name>WebCtor.Service</Name>
-    </ProjectReference>
     <ProjectReference Include="..\WebCtor.Test\WebCtor.Test.csproj">
       <Project>{f503fad2-d420-477a-8f05-ffec2489479a}</Project>
       <Name>WebCtor.Test</Name>
     </ProjectReference>
+    <ProjectReference Include="..\WebCtor.Web.Site.GuildCloud\WebCtor.Web.Site.GuildCloud.csproj">
+      <Project>{b6f46cbd-50f3-421d-8bda-5b31ea3decba}</Project>
+      <Name>WebCtor.Web.Site.GuildCloud</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

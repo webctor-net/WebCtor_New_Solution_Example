@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("WebCtor.Web.Site.ShroudedMountain.Test.Integration")]
+[assembly: AssemblyTitle("WebCtor.Web.Site.GuildCloud.Test.Integration")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("WebCtor.Web.Site.ShroudedMountain.Test.Integration")]
+[assembly: AssemblyProduct("WebCtor.Web.Site.GuildCloud.Test.Integration")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("eb994e13-d524-446c-862c-70b29cb8772f")]
+[assembly: Guid("1a6272fd-dfd7-4194-8017-aa0180ab6c8b")]
 
 // Version information for an assembly consists of the following four values:
 //

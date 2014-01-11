@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace WebCtor.Web.Site.ShroudedMountain
+namespace WebCtor.Web.Site.GuildCloud
 {
     public class RouteConfig
     {

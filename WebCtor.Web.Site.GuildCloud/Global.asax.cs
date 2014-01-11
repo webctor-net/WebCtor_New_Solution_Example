@@ -8,7 +8,7 @@ using System.Web.Security;
 using System.Web.SessionState;
 using System.Web.Http;
 
-namespace WebCtor.Web.Site.ShroudedMountain
+namespace WebCtor.Web.Site.GuildCloud
 {
     public class Global : HttpApplication
     {

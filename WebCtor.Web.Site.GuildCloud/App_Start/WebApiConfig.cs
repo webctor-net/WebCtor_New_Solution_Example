@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
 
-namespace WebCtor.Web.Site.ShroudedMountain
+namespace WebCtor.Web.Site.GuildCloud
 {
     public static class WebApiConfig
     {
